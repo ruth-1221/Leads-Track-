@@ -41,8 +41,7 @@ onValue(referenceInDB, function(snapshot) {
     }
 })
 
-deleteBtn.addEventListener("dblclick", function() {
-    console.log("For Delete Please Double Click Delete Button")
+deleteBtn.addEventListener("click", function() {
     remove(referenceInDB)
     ulEl.innerHTML = ""
 })
